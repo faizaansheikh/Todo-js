@@ -1,0 +1,83 @@
+body{background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
+.work{
+    text-align: center;
+
+}
+h1{
+    color: azure;
+    font-family: 'Anton', sans-serif;
+}
+input{
+    width: 350px;
+    height: 38px;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+.add{
+    position: relative;
+    top: 2px;
+    width: 100px;
+    height: 44px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Pushster', cursive;
+}
+.add:hover{
+    cursor: pointer;
+}
+#get{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    
+}
+#uls{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.remove{
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    font-family: 'Pushster', cursive;
+}
+.remove:hover{
+    cursor: pointer;
+}
+.edit{
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    font-family: 'Pushster', cursive;
+    padding-right: 23px;
+    padding-left: 23px;
+}
+.edit:hover{
+    cursor: pointer;
+}
+.dall{
+    text-align: center;
+}
+.delete{
+    margin-top: 5px;
+    width: 462px;
+    height: 52px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Pushster', cursive;
+}
+.delete:hover{
+    cursor: pointer;
+}
+@media (min-width: 0px) and (max-width: 475px) {
+    .delete {
+        width: 262px;
+    }
+  }
